@@ -9,8 +9,5 @@
     "build": "babel ./ -d dist"
   },
   "author": "Epolis",
-  "license": "ISC",
-  "devDependencies": {
-    "babel-cli": "^6.26.0"
-  }
+  "license": "ISC"
 }
