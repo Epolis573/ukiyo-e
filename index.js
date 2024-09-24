@@ -1,4 +1,5 @@
 //Import
+
 const express = require('express')
 const app = express()
 const port = 3000
@@ -14,7 +15,7 @@ app.use('/fonts', express.static(__dirname + 'public/fonts'))
 
 
 // Set Views
-app.set('views', './views')
+app.set('views', (__dirname, './views'));
 app.set('view engine', 'ejs')
 
 
