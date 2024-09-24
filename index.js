@@ -7,12 +7,6 @@ const port = 3000
 
 // Static
 app.use(express.static('public'))
-app.use('/css', express.static(__dirname + 'public/css'))
-app.use('/js', express.static(__dirname + 'public/js'))
-app.use('/images', express.static(__dirname + 'public/images'))
-app.use('/favicons', express.static(__dirname + 'public/favicons'))
-app.use('/fonts', express.static(__dirname + 'public/fonts'))
-
 
 // Set Views
 app.set('views', (__dirname + '/views'));
