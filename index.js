@@ -15,7 +15,7 @@ app.use('/fonts', express.static(__dirname + 'public/fonts'))
 
 
 // Set Views
-app.set('views', (__dirname, './views'));
+app.set('views', (__dirname + '/views'));
 app.set('view engine', 'ejs')
 
 
