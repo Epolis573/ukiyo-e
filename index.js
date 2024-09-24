@@ -6,7 +6,7 @@ const port = 3000
 
 
 // Static
-app.use(express.static('public'))
+app.use(express.static(__dirname + "/public/"));
 
 // Set Views
 app.set('views', (__dirname + '/views'));
