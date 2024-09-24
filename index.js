@@ -29,7 +29,28 @@ app.get('/gallery', (req, res) => {
     res.render('./gallerypage/gallery')
 })
 app.get('/gallery/art1', (req, res) => {
-    res.render('./gallerypage/aw202301')
+    res.render('./gallerypage/art1')
+})
+app.get('/gallery/art2', (req, res) => {
+    res.render('./gallerypage/art2')
+})
+app.get('/gallery/art3', (req, res) => {
+    res.render('./gallerypage/art3')
+})
+app.get('/gallery/art4', (req, res) => {
+    res.render('./gallerypage/art4')
+})
+app.get('/gallery/art5', (req, res) => {
+    res.render('./gallerypage/art5')
+})
+app.get('/gallery/art6', (req, res) => {
+    res.render('./gallerypage/art6')
+})
+app.get('/gallery/art7', (req, res) => {
+    res.render('./gallerypage/art7')
+})
+app.get('/gallery/art8', (req, res) => {
+    res.render('./gallerypage/art8')
 })
 
 // Listen
