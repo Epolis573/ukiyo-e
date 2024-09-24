@@ -8,5 +8,9 @@
     ],
     "regions": [
         "sfo1"
-    ]
+    ],
+    "images": {
+    "dangerouslyAllowSVG": true,
+    "dangerouslyAllowPNG": true
+}
 }
