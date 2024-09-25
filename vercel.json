@@ -10,7 +10,7 @@
         "sfo1"
     ],
     "images": {
-    "dangerouslyAllowSVG": true,
-    "dangerouslyAllowPNG": true
+    "dangerouslyAllowSVG": true
+   
 }
 }
