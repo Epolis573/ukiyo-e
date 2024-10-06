@@ -3063,6 +3063,16 @@ screen and (min-width: 1024px) {
         padding: .4rem 4rem 12rem 0
     }
 
+    .s-business__section--design .s-business__route {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 1;
+        grid-column: 1/2;
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
+        grid-row: 1/2;
+        padding: 17rem 4rem 0 0
+    }
+
     .s-business__section--design .s-business__design {
         -ms-grid-column: 1;
         -ms-grid-column-span: 1;
