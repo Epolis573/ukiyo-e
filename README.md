@@ -1,1 +1,1 @@
-[Review](https://ukiyo-e-beta.vercel.app/)
+[Preview](https://ukiyo-e-beta.vercel.app/)
